@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <!-- Profil Fotoğrafı -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar_man"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/grey"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Kullanıcı Adı -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ad Soyad"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/profile_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Bilgi Kartları (Telefon, Doğum Tarihi, Meslek, Hobiler, Cinsiyet) -->
+    <LinearLayout
+        android:id="@+id/llProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/ProfileTextStyle"
+            app:drawableLeftCompat="@drawable/ic_phone"
+            tools:text="Telefon: +90 555 555 55 55"/>
+
+        <TextView
+            android:id="@+id/tv_birthdate"
+            style="@style/ProfileTextStyle"
+            android:layout_marginTop="8dp"
+            tools:text="Doğum Tarihi: 01.01.1990"
+            app:drawableLeftCompat="@drawable/ic_birthday" />
+
+        <TextView
+            android:id="@+id/tv_job"
+            style="@style/ProfileTextStyle"
+            android:layout_marginTop="8dp"
+            tools:text="Meslek: Yazılım Geliştirici"
+            app:drawableLeftCompat="@drawable/ic_job" />
+
+        <TextView
+            android:id="@+id/tv_hobbies"
+            style="@style/ProfileTextStyle"
+            android:layout_marginTop="8dp"
+            tools:text="Hobiler: Kodlama, Kitap Okuma, Müzik"
+            app:drawableLeftCompat="@drawable/ic_hobby" />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            style="@style/ProfileTextStyle"
+            android:layout_marginTop="8dp"
+            tools:text="Cinsiyet: Erkek"
+            app:drawableLeftCompat="@drawable/ic_gender" />
+    </LinearLayout>
+
+    <!-- Kaydet Butonu -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profili Düzenle"
+        android:layout_marginVertical="24dp"
+        android:layout_marginHorizontal="12dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingVertical="10dp"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        app:cornerRadius="16dp"
+        app:layout_constraintTop_toBottomOf="@id/llProfile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Çıkış Yap Butonu -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Çıkış Yap"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        app:cornerRadius="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

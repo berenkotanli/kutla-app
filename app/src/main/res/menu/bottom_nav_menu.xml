@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@drawable/ic_friends"
+        android:title="Arkadaşlar" />
+
+    <item
+        android:id="@+id/nav_gift"
+        android:icon="@drawable/ic_gift"
+        android:title="Hediye Önerisi" />
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/ic_message"
+        android:title="Mesaj Önerisi" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profil" />
+</menu>

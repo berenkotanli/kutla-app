@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1000228923955",
+    "project_id": "kutlaapp",
+    "storage_bucket": "kutlaapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000228923955:android:b564c0bc9e595361511146",
+        "android_client_info": {
+          "package_name": "com.example.kutlaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000228923955-04t1h2n77500jnmbbd288pv4d3jv964d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kutlaapp",
+            "certificate_hash": "a3248e472df61b98df2d51c0377a34e10b47d378"
+          }
+        },
+        {
+          "client_id": "1000228923955-ufkeu349usseesb6b1197i0veujej9p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP6yfUG5Lk1wPfZh1PM6_KGklsl8ijmBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000228923955-ufkeu349usseesb6b1197i0veujej9p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KutlaApp</string>
+    <string name="default_web_client_id">your-web-client-id</string>
+    <string name="Email">Email</string>
+    <string name="add_contacts">Arkadaşlarını Ekle</string>
+</resources>

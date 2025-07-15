@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_card">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesaj Türü ve Hitap Şekli Seç"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/text_color"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtMessageType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Mesaj türünü seç"
+        android:fontFamily="@font/poppins_regular"
+        android:background="@drawable/background_rounded_text"
+        android:padding="12dp"
+        android:focusable="false"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/etSalutation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hitap şeklini girin"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_rounded_text"
+        android:padding="12dp"/>
+
+    <!-- Kaydet Butonu -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamam"
+        android:layout_marginTop="20dp"
+        android:paddingVertical="8dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        app:cornerRadius="16dp" />
+</LinearLayout>

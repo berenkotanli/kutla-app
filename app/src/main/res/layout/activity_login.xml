@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hesabına"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppins_bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="Giriş Yap"
+            android:textColor="@color/purple_500"
+            android:textSize="30sp"
+            android:fontFamily="@font/poppins_bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş yapmak için bilgilerini gir"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_gravity="center"
+        android:textColor="@color/grey"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/grey"
+        android:hint="Email"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="4dp"
+        android:paddingStart="16dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/background_rounded_text"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/grey"
+        android:hint="Şifre"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="4dp"
+        android:paddingStart="16dp"
+        android:inputType="textPassword"
+        android:background="@drawable/background_rounded_text"
+        android:padding="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:gravity="center"
+        android:layout_marginVertical="24dp"
+        android:layout_marginHorizontal="12dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:paddingVertical="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:background="@color/grey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veya Google ile Giriş Yap"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginHorizontal="12dp"/>
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:background="@color/grey"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_google_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Google ile Giriş Yap"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_regular"
+        android:drawableStart="@drawable/ic_google"
+        android:paddingVertical="10dp"
+        android:elevation="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Hesabın yok mu?" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/teal_700"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Kaydol" />
+    </LinearLayout>
+
+</LinearLayout>
