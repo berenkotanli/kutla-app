@@ -53,4 +53,6 @@ Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum gün�
 | Yapay Zeka API       | Google Gemini (hediye ve mesaj üretimi için) |
 | Diğer                | ViewModel, LiveData, Room, Coroutines, Retrofit |
 
+##  Ekran Görüntüleri ve Video
+
 
