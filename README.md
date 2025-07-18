@@ -1,4 +1,4 @@
-# 📱 Kutla - Özel Gün Hatırlatıcısı ve Kişiye Özel Hediye/Mesaj Önericisi
+#  Kutla - Özel Gün Hatırlatıcısı ve Kişiye Özel Hediye/Mesaj Önericisi
 
 **Kutla**, sevdiklerinin özel günlerini hatırlamanı kolaylaştıran ve onlara en uygun hediye ve mesajları öneren kişisel bir asistan uygulamasıdır.
 
@@ -6,41 +6,41 @@ Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum gün�
 
 ---
 
-## 🚀 Özellikler
+##  Özellikler
 
-### 🔐 Giriş/Kayıt Sistemi
+###  Giriş/Kayıt Sistemi
 - Gmail ile giriş (Firebase Authentication)
 - E-posta ve şifre ile giriş/kayıt
 
-### 👥 Kişi Yönetimi
+###  Kişi Yönetimi
 - Telefon rehberinden kişi ekleme
 - Eğer kişi **Kutla kullanıcısıysa**: ➕ `Ekle` butonu
 - Eğer değilse: ✉️ `Davet Et` butonu
 
-### 📅 Ana Sayfa
+###  Ana Sayfa
 - Kişi listesi
 - Doğum gününe kaç gün kaldığını gösterme
 - Kişi detay ekranı (Ad, soyad, doğum tarihi, burç, hobiler vs.)
 
-### 🎁 Hediye Önerileri
+###  Hediye Önerileri
 - Google Gemini API ile **kişiye özel** öneriler
 - Amazon, Trendyol, Hepsiburada linkleri
 - "Beğendim / Beğenmedim" seçeneği ile öneri listesi güncellenir  
   *(Pull to Refresh destekli)*
 
-### ✉️ Mesaj Önerileri
+###  Mesaj Önerileri
 - Doğum günü mesajı üretme
 - Ton (samimi, resmi, romantik) ve hitap (sen, siz) seçimi
 - Beğen / Beğenmeme ile öneri sistemi güncellenir
 - Kopyala butonu ile mesajı kolayca paylaş
 
-### 👤 Profil Ekranı
+###  Profil Ekranı
 - Kullanıcının adı, hobileri, doğum tarihi vs. bilgileri
 - Bilgileri Firebase Firestore ve Storage ile güncelleyebilme
 
 ---
 
-## 🧰 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 | Alan                 | Teknoloji                                  |
 |----------------------|---------------------------------------------|
