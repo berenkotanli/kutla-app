@@ -4,7 +4,7 @@
 
 Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum günü veya diğer özel günleri takip edebilir, yapay zeka destekli hediye ve mesaj önerileri alabilir.
 
-<img width="2505" height="2116" alt="Image" src="https://github.com/user-attachments/assets/47f215ab-2d22-4bdb-b236-13af2e454f22" />
+<img src="https://github.com/user-attachments/assets/47f215ab-2d22-4bdb-b236-13af2e454f22" width="500" />
 
 ---
 
