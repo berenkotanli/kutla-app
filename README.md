@@ -53,9 +53,9 @@ Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum gün�
 | Dosya Depolama       | Firebase Storage                           |
 | Kimlik Doğrulama     | Firebase Auth (Email/Şifre, Gmail)         |
 | Yapay Zeka API       | Google Gemini (hediye ve mesaj üretimi için) |
-| Diğer                | ViewModel, LiveData, Room, Coroutines, Retrofit |
+| Diğer                | ViewModel, LiveData, Coroutines, Glide |
 
-##  Ekran Görüntüleri ve Video
+##  Ekran Görüntüleri
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0c3e4b2a-61b2-483e-85ab-6af05fc29dbc" width="270"/>
@@ -76,5 +76,9 @@ Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum gün�
   <img src="https://github.com/user-attachments/assets/b49535b3-081c-42ef-b571-af9bd448ea3b" width="270"/>
   <img src="https://github.com/user-attachments/assets/64d208db-ff4f-4def-b767-ecac0b2817ae" width="270"/>
   <img src="https://github.com/user-attachments/assets/fedc0b89-b81d-4475-8537-b7aef107e43a" width="270"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/768f49a3-d3ea-4c1e-86b2-1152015da126" width="270"/>
+  <img src="https://github.com/user-attachments/assets/6e6f80e0-d187-4e0c-8d97-f114248d9160" width="270"/>
 </p>
 
