@@ -57,4 +57,9 @@ Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum gün�
 
 ##  Ekran Görüntüleri ve Video
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0c3e4b2a-61b2-483e-85ab-6af05fc29dbc" width="270"/>
+  <img src="https://github.com/user-attachments/assets/8339662e-32c8-485e-a967-7a7ece387e30" width="270"/>
+  <img src="https://github.com/user-attachments/assets/aa2f256d-2119-4102-a054-abfd261b3f26" width="270"/>
+</p>
 
