@@ -72,4 +72,9 @@ Uygulamada kullanıcılar telefon rehberinden kişiler ekleyebilir, doğum gün�
   <img src="https://github.com/user-attachments/assets/4052d833-194c-4249-8f39-75e40440bcf3" width="270"/>
   <img src="https://github.com/user-attachments/assets/b3720588-1c90-4ec8-a5ab-38c35663e34b" width="270"/>
 </p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b49535b3-081c-42ef-b571-af9bd448ea3b" width="270"/>
+  <img src="https://github.com/user-attachments/assets/64d208db-ff4f-4def-b767-ecac0b2817ae" width="270"/>
+  <img src="https://github.com/user-attachments/assets/fedc0b89-b81d-4475-8537-b7aef107e43a" width="270"/>
+</p>
 
